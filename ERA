@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ERA Matcha</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #ffcccb; /* Light Pink */
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #4caf50; /* Green */
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .price {
+            font-size: 24px;
+            color: #ffeb3b; /* Yellow */
+        }
+        form {
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+        }
+        input, button {
+            padding: 10px;
+            margin: 10px 0;
+            width: 100%;
+        }
+        button {
+            background-color: #4caf50; /* Green */
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049; /* Darker Green */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffcccb; /* Light Pink */
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to ERA Matcha</h1>
+</header>
+
+<div class="content">
+    <img src="your-product-image-url.jpg" alt="ERA Matcha" style="max-width: 100%; height: auto;">
+    <h2>Your Daily Boost of Energy</h2>
+    <p>ERA Matcha is the perfect way to start your day with a healthy dose of antioxidants and energy.</p>
+    <p class="price">$29.99</p>
+
+    <h3>Order Now</h3>
+    <form action="your-order-processing-url" method="POST">
+        <input type="text" name="fullName" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="number" name="quantity" placeholder="Quantity" min="1" required>
+        <button type="submit">Place Order</button>
+    </form>
+</div>
+
+<footer>
+    <p>Contact us at: <a href="mailto:info@eramatcha.com">info@eramatcha.com</a></p>
+    <p>Follow us on social media!</p>
+</footer>
+
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+header {
+    background-color: #ffcccb; /* Light Pink */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #4caf50; /* Green */
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.price {
+    font-size: 24px;
+    color: #ffeb3b; /* Yellow */
+}
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #4caf50; /* Green */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccb; /* Light Pink */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
